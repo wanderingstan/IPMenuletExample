@@ -15,5 +15,6 @@
 
 -(IBAction)updateIPAddress:(id)sender;
 
+NSImage *menuIcon;
 
 @end

@@ -15,6 +15,7 @@
 -(void)dealloc
 {
     [statusItem release];
+	[menuIcon release];
 	[super dealloc];
 }
 - (void)awakeFromNib
@@ -23,13 +24,31 @@
 				   statusItemWithLength:NSVariableStatusItemLength]
 				  retain];
 	[statusItem setHighlightMode:YES];
-	[statusItem setTitle:[NSString 
-						  stringWithFormat:@"%C",0x2295]]; 
 	[statusItem setEnabled:YES];
 	[statusItem setToolTip:@"IPMenulet"];
 	
 	[statusItem setAction:@selector(updateIPAddress:)];
 	[statusItem setTarget:self];
+
+	/*
+	// Title as string
+	[statusItem setTitle:[NSString stringWithString:@"0.0.0.0"]]; 
+	 */
+	
+	/* 
+	//Title as Unicode Glyph
+	[statusItem setTitle:[NSString 
+	stringWithFormat:@"%C",0x2295]]; 
+	 */
+		
+	// Title as Image
+	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+	NSString *path = [bundle pathForResource:@"IPMenuIcon" ofType:@"tif"];
+	menuIcon= [[NSImage alloc] initWithContentsOfFile:path];
+	[statusItem setTitle:[NSString stringWithString:@""]]; 
+	[statusItem setImage:menuIcon];
+
+	
 }
 
 -(IBAction)updateIPAddress:(id)sender
