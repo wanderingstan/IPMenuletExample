@@ -1,0 +1,233 @@
+TIPMenuletExample
+v7
+r0
+t375384381.685075
+cCheck dependencies
+cProcessInfoPlistFile /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Info.plist IPMenuletExample-Info.plist
+cCopyStringsFile /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch.gch IPMenuletExample_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/main.o /Users/stan/Documents/workspace/IPMenuletExample/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExampleAppDelegate.o /Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenulet.o /Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample normal x86_64
+cTouch /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/stan/Documents/workspace/IPMenuletExample/English.lproj/InfoPlist.strings
+c0000000050AFB11F000000000000002D
+t1353691423
+s45
+
+N/Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib
+c0000000050AFB11F000000000002BBCE
+t1353691423
+s179150
+
+N/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.h
+c0000000050AFB1A80000000000000120
+t1353691560
+s288
+i<Foundation/Foundation.h>
+
+N/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m
+c0000000050AFB1B0000000000000029A
+t1353691568
+s666
+i"IPMenulet.h"
+
+N/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.h
+c0000000050AFB11F000000000000014F
+t1353691423
+s335
+i<Cocoa/Cocoa.h>
+
+N/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m
+c0000000050AFB11F000000000000018D
+t1353691423
+s397
+i"IPMenuletExampleAppDelegate.h"
+
+N/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExample_Prefix.pch
+c0000000050AFB11F00000000000000A3
+t1353691423
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app
+t1353691581
+s102
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Info.plist
+t1353691575
+s1311
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample
+t1353691581
+s16008
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/PkgInfo
+t1353691575
+s8
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1353691575
+s92
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/MainMenu.nib
+t1353691575
+s34518
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenulet.o
+t1353691581
+s17084
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExample.LinkFileList
+c0000000050AFB1B700000000000001B4
+t1353691575
+s436
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExampleAppDelegate.o
+t1353691581
+s21352
+
+N/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/main.o
+t1353691581
+s5016
+
+N/Users/stan/Documents/workspace/IPMenuletExample/main.m
+c0000000050AFB11F00000000000000FF
+t1353691423
+s255
+i<Cocoa/Cocoa.h>
+
+N/var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch.gch
+t1353691581
+s54306576
+
+NIPMenuletExample-Info.plist
+c0000000050AFB11F00000000000003EA
+t1353691423
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies375384375#375384375#0(0"0(0#1#0"8613314752#0"0#
+
+CCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenulet.o /Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s375384381.472289
+e375384381.645548
+r1
+xCompileC
+xbuild/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenulet.o
+x/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m:35: warning: incomplete implementation of class 'IPMenulet'
+o/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m:35: warning: method definition for '-updateIPAddress:' not found
+lSLF07#2@68"Compile /Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m375384381#375384381#0(247"/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m:35: warning: incomplete implementation of class 'IPMenulet'/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m:35: warning: method definition for '-updateIPAddress:' not found2(22@46"Incomplete implementation of class 'IPMenulet'375384381#0#121#0(6@60"/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m375384368#35#0#35#0#38"incomplete implementation of class '*'0(22@51"Method definition for '-updateIPAddress:' not found375384381#121#126#0(6@60"/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m375384368#35#0#35#0#35"method definition for '*' not found0(0#0#60"/Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m8617853248#1750"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-generated-files.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-own-target-headers.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-all-target-headers.hmap -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-project-headers.hmap -F/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -I/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/include -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources/x86_64 -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources -include /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch -c /Users/stan/Documents/workspace/IPMenuletExample/IPMenulet.m -o /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenulet.o0#
+
+CCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExampleAppDelegate.o /Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s375384381.303974
+e375384381.502172
+r1
+xCompileC
+xbuild/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExampleAppDelegate.o
+x/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m375384381#375384381#0(0"0(0#0#78"/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m8618886080#1786"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-generated-files.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-own-target-headers.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-all-target-headers.hmap -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-project-headers.hmap -F/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -I/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/include -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources/x86_64 -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources -include /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch -c /Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExampleAppDelegate.m -o /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExampleAppDelegate.o0#
+
+CCompileC build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/main.o /Users/stan/Documents/workspace/IPMenuletExample/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s375384381.303000
+e375384381.472192
+r1
+xCompileC
+xbuild/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/main.o
+x/Users/stan/Documents/workspace/IPMenuletExample/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/stan/Documents/workspace/IPMenuletExample/main.m375384381#375384381#0(0"0(0#0#55"/Users/stan/Documents/workspace/IPMenuletExample/main.m8619065504#1740"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-generated-files.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-own-target-headers.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-all-target-headers.hmap -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-project-headers.hmap -F/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -I/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/include -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources/x86_64 -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources -include /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch -c /Users/stan/Documents/workspace/IPMenuletExample/main.m -o /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib
+s375384375.430175
+e375384375.898531
+r1
+xCompileXIB
+x/Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib375384375#375384375#0(0"0(0#0#75"/Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib8617506144#403"    cd /Users/stan/Documents/workspace/IPMenuletExample    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/MainMenu.nib /Users/stan/Documents/workspace/IPMenuletExample/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s375384375.426852
+e375384375.496933
+r1
+xCopyStringsFile
+x/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings375384375#375384375#0(0"0(0#0#80"/Users/stan/Documents/workspace/IPMenuletExample/English.lproj/InfoPlist.strings8617655616#394"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Resources/English.lproj0#
+
+CLd /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample normal x86_64
+s375384381.645825
+e375384381.682050
+r1
+xLd
+x/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample
+xnormal
+xx86_64
+lSLF07#2@118"Link /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample375384381#375384381#0(0"0(0#0#0"8617136800#637"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -F/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -filelist /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/Objects-normal/x86_64/IPMenuletExample.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/MacOS/IPMenuletExample0#
+
+CProcessInfoPlistFile /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Info.plist IPMenuletExample-Info.plist
+s375384375.410455
+e375384375.426587
+r1
+xProcessInfoPlistFile
+x/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Info.plist
+xIPMenuletExample-Info.plist
+lSLF07#2@35"Process IPMenuletExample-Info.plist375384375#375384375#0(0"0(0#0#76"/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExample-Info.plist8618335488#367"    cd /Users/stan/Documents/workspace/IPMenuletExample    builtin-infoPlistUtility IPMenuletExample-Info.plist -genpkginfo /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch.gch IPMenuletExample_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s375384375.898661
+e375384381.302797
+r1
+xProcessPCH
+x/var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch.gch
+xIPMenuletExample_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile IPMenuletExample_Prefix.pch375384375#375384381#0(0"0(0#0#76"/Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExample_Prefix.pch8616987264#1627"    cd /Users/stan/Documents/workspace/IPMenuletExample    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-generated-files.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-own-target-headers.hmap -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-all-target-headers.hmap -iquote /Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/IPMenuletExample-project-headers.hmap -F/Users/stan/Documents/workspace/IPMenuletExample/build/Debug -I/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/include -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources/x86_64 -I/Users/stan/Documents/workspace/IPMenuletExample/build/IPMenuletExample.build/Debug/IPMenuletExample.build/DerivedSources -c /Users/stan/Documents/workspace/IPMenuletExample/IPMenuletExample_Prefix.pch -o /var/folders/gh/ghiM4HkwH2aL31wm9ehMT++++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/IPMenuletExample_Prefix-gfklntrjxqkfygboodtuvtqwirrc/IPMenuletExample_Prefix.pch.gch0#
+
+CTouch /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app
+s375384381.682141
+e375384381.685031
+r1
+xTouch
+x/Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app
+lSLF07#2@87"Touch /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app375384381#375384381#0(0"0(0#0#0"8616980576#160"    cd /Users/stan/Documents/workspace/IPMenuletExample    /usr/bin/touch -c /Users/stan/Documents/workspace/IPMenuletExample/build/Debug/IPMenuletExample.app0#
+

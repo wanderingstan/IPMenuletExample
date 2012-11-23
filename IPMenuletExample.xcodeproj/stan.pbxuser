@@ -1,0 +1,192 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 526}}";
+			sepNavSelRange = "{300, 0}";
+			sepNavVisRange = "{0, 335}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F6ACF38F165FE89F00C0113D /* IPMenuletExample */;
+		activeTarget = 8D1107260486CEB800E47090 /* IPMenuletExample */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* IPMenuletExample */,
+		);
+		codeSenseManager = F6ACF3A0165FE8B600C0113D /* Code sense */;
+		executables = (
+			F6ACF38F165FE89F00C0113D /* IPMenuletExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					587,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 375384223;
+			PBXWorkspaceStateSaveDate = 375384223;
+		};
+		perUserProjectItems = {
+			F6ACF3A3165FE94F00C0113D /* XCBuildMessageTextBookmark */ = F6ACF3A3165FE94F00C0113D /* XCBuildMessageTextBookmark */;
+			F6ACF3A4165FE94F00C0113D /* PBXTextBookmark */ = F6ACF3A4165FE94F00C0113D /* PBXTextBookmark */;
+			F6ACF3AE165FE94F00C0113D /* PBXTextBookmark */ = F6ACF3AE165FE94F00C0113D /* PBXTextBookmark */;
+			F6ACF3AF165FE94F00C0113D /* PBXTextBookmark */ = F6ACF3AF165FE94F00C0113D /* PBXTextBookmark */;
+			F6ACF3B0165FE94F00C0113D /* XCBuildMessageTextBookmark */ = F6ACF3B0165FE94F00C0113D /* XCBuildMessageTextBookmark */;
+			F6ACF3B1165FE94F00C0113D /* PBXTextBookmark */ = F6ACF3B1165FE94F00C0113D /* PBXTextBookmark */;
+			F6ACF3B7165FE95C00C0113D /* PBXTextBookmark */ = F6ACF3B7165FE95C00C0113D /* PBXTextBookmark */;
+		};
+		sourceControlManager = F6ACF39F165FE8B600C0113D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* IPMenuletExample */ = {
+		activeExec = 0;
+		executables = (
+			F6ACF38F165FE89F00C0113D /* IPMenuletExample */,
+		);
+	};
+	F6ACF38F165FE89F00C0113D /* IPMenuletExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IPMenuletExample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F6ACF39C165FE8B600C0113D /* IPMenulet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 526}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{0, 288}";
+		};
+	};
+	F6ACF39D165FE8B600C0113D /* IPMenulet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 611}}";
+			sepNavSelRange = "{928, 0}";
+			sepNavVisRange = "{76, 858}";
+		};
+	};
+	F6ACF39F165FE8B600C0113D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F6ACF3A0165FE8B600C0113D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F6ACF3A3165FE94F00C0113D /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'IPMenulet'";
+		fRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 45;
+		rType = 1;
+	};
+	F6ACF3A4165FE94F00C0113D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */;
+		name = "IPMenulet.m: 35";
+		rLen = 0;
+		rLoc = 929;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 277;
+	};
+	F6ACF3AE165FE94F00C0113D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* IPMenuletExampleAppDelegate.h */;
+		name = "IPMenuletExampleAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 300;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 0;
+	};
+	F6ACF3AF165FE94F00C0113D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ACF39C165FE8B600C0113D /* IPMenulet.h */;
+		name = "IPMenulet.h: 20";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 288;
+		vrLoc = 0;
+	};
+	F6ACF3B0165FE94F00C0113D /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'IPMenulet'";
+		fRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 45;
+		rType = 1;
+	};
+	F6ACF3B1165FE94F00C0113D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */;
+		name = "IPMenulet.m: 35";
+		rLen = 0;
+		rLoc = 929;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 0;
+	};
+	F6ACF3B7165FE95C00C0113D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ACF39D165FE8B600C0113D /* IPMenulet.m */;
+		name = "IPMenulet.m: 45";
+		rLen = 0;
+		rLoc = 928;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 76;
+	};
+}
