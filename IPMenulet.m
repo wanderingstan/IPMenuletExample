@@ -24,7 +24,7 @@
 				  retain];
 	[statusItem setHighlightMode:YES];
 	[statusItem setTitle:[NSString 
-						  stringWithString:@"0.0.0.0"]]; 
+						  stringWithFormat:@"%C",0x2295]]; 
 	[statusItem setEnabled:YES];
 	[statusItem setToolTip:@"IPMenulet"];
 	
