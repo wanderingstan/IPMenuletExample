@@ -2,33 +2,31 @@
 //  IPMenulet.m
 //  IPMenuletExample
 //
-//  Created by Stan on 11/23/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+// Maintained and updated by Stan James
+// https://github.com/wanderingstan/IPMenuletExample
 //
+// Originally  an implementation of the excellent menulet tutorial
+// by Andrew Turner, published here:
+// http://www.mactech.com/articles/mactech/Vol.22/22.02/Menulet/index.html
 
 #import "IPMenulet.h"
 
-
-@implementation IPMenulet
-
-
--(void)dealloc
-{
-    [statusItem release];
-	[menuIcon release];
-	[super dealloc];
+@implementation IPMenulet {
+    __weak IBOutlet NSMenu *menuletMenu;
 }
-- (void)awakeFromNib
+
+- (void) awakeFromNib
 {
-	statusItem = [[[NSStatusBar systemStatusBar] 
-				   statusItemWithLength:NSVariableStatusItemLength]
-				  retain];
+	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 	[statusItem setHighlightMode:YES];
 	[statusItem setEnabled:YES];
 	[statusItem setToolTip:@"IPMenulet"];
 	
 	[statusItem setAction:@selector(updateIPAddress:)];
 	[statusItem setTarget:self];
+
+    // Attache menu
+    [statusItem setMenu:menuletMenu];
 
 	/*
 	// Title as string
@@ -41,24 +39,19 @@
 	stringWithFormat:@"%C",0x2295]]; 
 	 */
 		
-	// Title as Image
-	NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-	NSString *path = [bundle pathForResource:@"IPMenuIcon" ofType:@"tif"];
-	menuIcon= [[NSImage alloc] initWithContentsOfFile:path];
-	[statusItem setTitle:[NSString stringWithString:@""]]; 
-	[statusItem setImage:menuIcon];
-
-	
+	// Title as Image + Title
+    NSImage * menuIcon = [NSImage imageNamed:@"MenuletIcon"];
+    [statusItem setImage:menuIcon];
+	[statusItem setTitle:@"000.000.000.000"];
 }
 
--(IBAction)updateIPAddress:(id)sender
+- (IBAction) updateIPAddress:(id)sender
 {
-	NSString *ipAddr = [NSString stringWithContentsOfURL:
-						[NSURL URLWithString:
-						 @"http://highearthorbit.com/service/myip.php"]];
-	if(ipAddr != NULL)
-		[statusItem setTitle:
-		 [NSString stringWithString:ipAddr]]; 
+    NSString *ipAddr = [NSString stringWithContentsOfURL:[NSURL URLWithString:
+                                                          @"http://highearthorbit.com/service/myip.php"] encoding:NSASCIIStringEncoding error:nil];
+    if (ipAddr != nil) {
+		[statusItem setTitle:ipAddr];
+    }
 }
 
 

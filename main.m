@@ -2,9 +2,12 @@
 //  main.m
 //  IPMenuletExample
 //
-//  Created by Stan on 11/23/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+// Maintained and updated by Stan James
+// https://github.com/wanderingstan/IPMenuletExample
 //
+// Originally  an implementation of the excellent menulet tutorial
+// by Andrew Turner, published here:
+// http://www.mactech.com/articles/mactech/Vol.22/22.02/Menulet/index.html
 
 #import <Cocoa/Cocoa.h>
 
