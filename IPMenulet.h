@@ -13,7 +13,7 @@
 
 
 @interface IPMenulet : NSObject {
-    NSStatusItem *statusItem;
+    NSStatusItem *_statusItem;
 }
 
 - (IBAction)updateIPAddress:(id)sender;

@@ -12,47 +12,47 @@
 #import "IPMenulet.h"
 
 @implementation IPMenulet {
-    __weak IBOutlet NSMenu *menuletMenu;
+    __weak IBOutlet NSMenu *_menuletMenu;
 }
 
 - (void) awakeFromNib
 {
-	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-	[statusItem setHighlightMode:YES];
-	[statusItem setEnabled:YES];
-	[statusItem setToolTip:@"IPMenulet"];
-	
-	[statusItem setAction:@selector(updateIPAddress:)];
-	[statusItem setTarget:self];
+	_statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+	[_statusItem setHighlightMode:YES];
+	[_statusItem setEnabled:YES];
+	[_statusItem setToolTip:@"IPMenulet"];
+	[_statusItem setTarget:self];
 
-    // Attache menu
-    [statusItem setMenu:menuletMenu];
+    // Attach pull-down menu
+    [_statusItem setMenu:_menuletMenu];
 
 	/*
 	// Title as string
-	[statusItem setTitle:[NSString stringWithString:@"0.0.0.0"]]; 
+	[_statusItem setTitle:[NSString stringWithString:@"0.0.0.0"]]; 
 	 */
 	
 	/* 
 	//Title as Unicode Glyph
-	[statusItem setTitle:[NSString 
-	stringWithFormat:@"%C",0x2295]]; 
+	[_statusItem setTitle:[NSString stringWithFormat:@"%C",0x2295]];
 	 */
 		
-	// Title as Image + Title
+	// Title as Image + String
     NSImage * menuIcon = [NSImage imageNamed:@"MenuletIcon"];
-    [statusItem setImage:menuIcon];
-	[statusItem setTitle:@"000.000.000.000"];
+    [_statusItem setImage:menuIcon];
+	[_statusItem setTitle:@"000"];
 }
 
 - (IBAction) updateIPAddress:(id)sender
 {
-    NSString *ipAddr = [NSString stringWithContentsOfURL:[NSURL URLWithString:
-                                                          @"http://highearthorbit.com/service/myip.php"] encoding:NSASCIIStringEncoding error:nil];
-    if (ipAddr != nil) {
-		[statusItem setTitle:ipAddr];
+    NSString *ipAddress = [NSString stringWithContentsOfURL:[NSURL URLWithString:
+                                                             @"http://highearthorbit.com/service/myip.php"] encoding:NSASCIIStringEncoding error:nil];
+    if (ipAddress != nil) {
+		[_statusItem setTitle:ipAddress];
     }
 }
 
+- (IBAction)quitAction:(id)sender {
+    [[NSApplication sharedApplication] terminate:nil];
+}
 
 @end
